@@ -1,0 +1,616 @@
+.caminhao {
+    background-image:url(../../../jornada/imagens/16x16/lorry.png) !important;
+}
+
+.atestado {
+    background-image:url(../../../jornada/imagens/16x16/script_edit.png) !important;
+}
+
+
+.home {
+    background-image:url(../../../jornada/imagens/16x16/house.png) !important;
+}
+	
+.contrato {
+    background-image:url(../../../jornada/imagens/16x16/contrato.png) !important;
+}
+
+.calendar {
+    background-image:url(../../../jornada/imagens/16x16/calendar.gif) !important;
+}
+
+.rename {
+    background-image:url(../../../jornada/imagens/16x16/rename.png) !important;
+}
+
+.thief {
+    background-image:url(../../../jornada/imagens/16x16/thief.png) !important;
+}
+
+.pdf {
+    background-image:url(../../../jornada/imagens/16x16/pdf.png) !important;
+}
+
+.id_cond {
+    background-image:url(../../../jornada/imagens/16x16/card.png) !important;
+}
+
+.id_cond2 {
+    background-image:url(../../../jornada/imagens/16x16/id_card2.png) !important;
+}
+
+.modulo {
+    background-image:url(../../../jornada/imagens/16x16/chart_organisation.png) !important;
+}
+
+.mensagem {
+    background-image:url(../../../jornada/imagens/16x16/script.png) !important;
+}
+
+.mov_indevido {
+    background-image:url(../../../jornada/imagens/16x16/arrow_switch.png) !important;
+}
+
+.shield {
+    background-image:url(../../../jornada/imagens/16x16/shield.png) !important;
+}
+
+.admin {
+    background-image:url(../../../jornada/imagens/16x16/award_star_gold_1.png) !important;
+}
+
+.chip {
+    background-image:url(../../../jornada/imagens/16x16/sim_card.png) !important;
+}
+
+.chip_edit {
+    background-image:url(../../../jornada/imagens/16x16/sim_card_edit.png) !important;
+}
+
+.chip_find {
+    background-image:url(../../../jornada/imagens/16x16/sim_card_find.png) !important;
+}
+
+.sensor {
+    background-image:url(../../../jornada/imagens/16x16/sensor.gif) !important;
+}
+
+.tracking {
+	background-image:url(../../../jornada/imagens/16x16/tracking.png) !important;
+}
+
+.license {
+	background-image:url(../../../jornada/imagens/16x16/license.png) !important;
+} 
+
+.tool{
+	background-image: url(../../../jornada/imagens/16x16/tool.png) !important;
+}
+
+.aparelho{
+	background-image: url(../../../jornada/imagens/16x16/aparelho.png) !important;
+}
+
+.podium{
+	background-image: url(../../../jornada/imagens/16x16/podium.gif) !important;
+}
+
+.insert{
+	background-image: url(../../../jornada/imagens/16x16/insert.gif) !important;
+}
+
+.fatura{
+	background-image: url(../../../jornada/imagens/16x16/fatura.gif) !important;
+}
+
+.command{
+	background-image: url(../../../jornada/imagens/16x16/command.png) !important;
+}
+
+.comments{
+	background-image: url(../../../jornada/imagens/16x16/comments.png) !important;
+}
+
+.config {
+    background-image: url(../../../jornada/imagens/16x16/config.png) !important;
+}
+
+.factory {
+    background-image:url(../../../jornada/imagens/16x16/factory.png) !important; 
+}
+
+.refresh {
+    background-image: url(../../../jornada/imagens/16x16/refresh.png) !important;
+}
+
+.blist {
+    background-image: url(../../../jornada/imagens/16x16/list-items.gif) !important;
+}
+
+.route {
+    background-image: url(../../../jornada/imagens/16x16/route.png) !important;
+}
+
+.reference {
+    background-image: url(../../../jornada/imagens/16x16/reference.png) !important;
+}
+
+.condutores {
+    background-image: url(../../../jornada/imagens/16x16/condutores.png) !important;
+}
+
+.cerca {
+    background-image: url(../../../jornada/imagens/16x16/cerca.png) !important;
+}
+
+.zona_risco {
+    background-image: url(../../../jornada/imagens/16x16/zona_risco.png) !important;
+}
+
+.ponto_alvo {
+    background-image: url(../../../jornada/imagens/16x16/ponto_alvo.png) !important;
+}
+
+.area_restrita {
+    background-image: url(../../../jornada/imagens/16x16/area_restrita.png) !important;
+}
+
+.warning {
+    background-image: url(../../../jornada/imagens/16x16/warning.png) !important;
+}
+
+.exclamation {
+    background-image: url(../../../jornada/imagens/16x16/exclamation.png) !important;
+}
+
+.veiculo {
+    background-image: url(../../../jornada/imagens/16x16/veiculo.png) !important;
+}
+
+.veiculo_desativado {
+    background-image: url(../../../jornada/imagens/16x16/veiculo_desativado.png) !important;
+}
+
+.grafico {
+    background-image: url(../../../jornada/imagens/16x16/grafico.png) !important;
+}
+
+.table_save {
+    background-image: url(../../../jornada/imagens/16x16/table_save.png) !important;
+}
+
+.user {
+    background-image: url(../../../jornada/imagens/16x16/user.png) !important;
+}
+
+.user_group {
+    background-image: url(../../../jornada/imagens/16x16/user_group.png) !important;
+}
+
+.lock {
+    background-image: url(../../../jornada/imagens/16x16/lock.png) !important;
+}
+
+.transmit {
+    background-image: url(../../../jornada/imagens/16x16/transmit.png) !important;
+}
+
+.money {
+    background-image: url(../../../jornada/imagens/16x16/money.png) !important;
+}
+
+.accept {
+    background-image: url(../../../jornada/imagens/16x16/accept.png) !important;
+}
+
+.cancel {
+    background-image: url(../../../jornada/imagens/16x16/cancel.png) !important;
+}
+
+.local {
+    background-image: url(../../../jornada/imagens/16x16/local.png) !important;
+}
+
+.gera_relatorio {
+    background-image: url(../../../jornada/imagens/16x16/gera_relatorio.png) !important;
+}
+
+.grafico {
+    background-image: url(../../../jornada/imagens/16x16/grafico.png) !important;
+}
+
+.add {
+    background-image: url(../../../jornada/imagens/16x16/add.png) !important;
+}
+
+.add_group {
+    background-image: url(../../../jornada/imagens/16x16/add_group.png) !important;
+}
+
+.group {
+    background-image: url(../../../jornada/imagens/16x16/group.png) !important;
+}
+
+.help {
+    background-image: url(../../../jornada/imagens/16x16/help.png) !important;
+}
+
+.rede_conf {
+    background-image: url(../../../jornada/imagens/16x16/rede_conf.png) !important;
+}
+
+.vincular{
+    background-image: url(../../../jornada/imagens/16x16/vincular.png) !important;
+}
+
+.link_edit {
+    background-image: url(../../../jornada/imagens/16x16/link_edit.png) !important;
+}
+
+.list {
+    background-image: url(../../../jornada/imagens/16x16/list.png) !important;
+}
+
+.hr_list {
+    background-image: url(../../../jornada/imagens/16x16/hr_list.png) !important;
+}
+
+.edit {
+    background-image: url(../../../jornada/imagens/16x16/edit.png) !important;
+}
+
+.obs {
+    background-image: url(../../../jornada/imagens/16x16/obs.png) !important;
+}
+
+.obs_add {
+    background-image: url(../../../jornada/imagens/16x16/obs_add.png) !important;
+}
+
+.bell {
+    background-image: url(../../../jornada/imagens/16x16/bell.png) !important;
+}
+
+.bell_new {
+    background-image: url(../../../jornada/imagens/16x16/bell_new.png) !important;
+}
+
+.bell_error {
+    background-image: url(../../../jornada/imagens/16x16/bell_error.png) !important;
+}
+
+.filter {
+    background-image: url(../../../jornada/imagens/16x16/filter.png) !important;
+}
+
+.filter_active {
+    background-image: url(../../../jornada/imagens/16x16/filter_active.png) !important;
+}
+
+.folder_conf {
+    background-image: url(../../../jornada/imagens/16x16/folder_conf.png) !important;
+}
+
+.cmd {
+    background-image: url(../../../jornada/imagens/16x16/cmd.png) !important;
+}
+
+.srv_save {
+    background-image: url(../../../jornada/imagens/16x16/srv_save.png) !important;
+}
+
+.srv_find {
+    background-image: url(../../../jornada/imagens/16x16/srv_find.png) !important;
+}
+
+.srv_close {
+    background-image: url(../../../jornada/imagens/16x16/srv_close.png) !important;
+}
+
+.grid {
+    background-image: url(../../../jornada/imagens/16x16/grid.png) !important;
+}
+
+.grid_conf {
+    background-image: url(../../../jornada/imagens/16x16/grid_conf.png) !important;
+}
+
+.logout {
+    background-image: url(../../../jornada/imagens/16x16/logout.png) !important;
+}
+
+.globe {
+    background-image: url(../../../jornada/imagens/16x16/globe.png) !important;
+}
+
+.user_help {
+    background-image: url(../../../jornada/imagens/16x16/user_help.png) !important;
+}
+
+.history {
+    background-image: url(../../../jornada/imagens/16x16/history.png) !important;
+}
+
+.speedLimit {
+    background-image: url(../../../jornada/imagens/16x16/speedLimit.png) !important;
+}
+
+.map {
+    background-image: url(../../../jornada/imagens/16x16/map.png) !important;
+}
+
+.find {
+    background-image: url(../../../jornada/imagens/16x16/find.png) !important;
+}
+
+.clear {
+    background-image: url(../../../jornada/imagens/16x16/clear.png) !important;
+}
+
+.delete {
+    background-image: url(../../../jornada/imagens/16x16/delete.png) !important;
+}
+
+.warning_delete {
+    background-image: url(../../../jornada/imagens/16x16/warning_delete.png) !important;
+}
+
+.remove {
+    background-image: url(../../../jornada/imagens/16x16/remove.png) !important;
+}
+
+.bmenu {
+    background-image: url(../../../jornada/imagens/16x16/menu-show.gif) !important;
+}
+
+.info {
+    background-image: url(../../../jornada/imagens/16x16/info.png) !important;
+}
+
+.save {
+    background-image: url(../../../jornada/imagens/16x16/save.gif) !important;
+}
+
+.gerenciador {
+    background-image: url(../../../jornada/imagens/16x16/gerenciador.png) !important;
+}
+
+.send_cmd {
+    background-image: url(../../../jornada/imagens/16x16/send_cmd.png) !important;
+}
+
+.wait_cmd {
+    background-image: url(../../../jornada/imagens/16x16/wait_cmd.png) !important;
+}
+
+.send_msg {
+    background-image: url(../../../jornada/imagens/16x16/send_msg.png) !important;
+}
+
+.alert_msg {
+    background-image: url(../../../jornada/imagens/16x16/alert_msg.png) !important;
+}
+
+.book_go{
+	background-image: url(../../../jornada/imagens/16x16/book_go.png) !important;
+}
+
+.book_open{
+	background-image: url(../../../jornada/imagens/16x16/book_open.png) !important;
+}
+
+.package{
+	background-image: url(../../../jornada/imagens/16x16/package.png) !important;
+}
+
+.imprimir{
+	background-image: url(../../../jornada/imagens/16x16/printer.png) !important;
+}
+
+.xls{
+	background-image: url(../../../jornada/imagens/16x16/xls.png) !important;
+}
+
+.servicos{ 
+	background-image: url(../../../jornada/imagens/16x16/page_gear.png) !important;
+}
+
+.viagem{ 
+	background-image: url(../../../jornada/imagens/16x16/travel.png) !important;
+}
+
+.sat{ 
+	background-image: url(../../../jornada/imagens/16x16/satellite.png) !important;
+}
+
+.hand{
+	background-image: url(../../../jornada/imagens/16x16/hand.gif) !important;
+}
+
+.join{
+	background-image: url(../../../jornada/imagens/16x16/join.png) !important;
+}
+
+.star{
+	background-image: url(../../../jornada/imagens/16x16/star.png) !important;
+}
+
+.star_up{
+	background-image: url(../../../jornada/imagens/16x16/star_up.png) !important;
+}
+
+.star_down{
+	background-image: url(../../../jornada/imagens/16x16/star_down.png) !important;
+}
+
+.atendimento_alerta{
+	background-image: url(../../../jornada/imagens/16x16/atendimento_alerta.png) !important;
+}
+
+.condutor_deslocamento{
+	background-image: url(../../../jornada/imagens/16x16/condutor_deslocamento.png) !important;
+}
+
+.veiculo_area_cobertura{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_area_cobertura.png) !important;
+}
+
+.veiculo_deslocamento{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_deslocamento.png) !important;
+}
+
+.veiculo_diario{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_diario.png) !important;
+}
+
+.veiculo_evento_cancelado{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_evento_cancelado.png) !important;
+}
+
+.veiculo_evento{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_evento.png) !important;
+}
+
+.veiculo_gerenciador_bordo{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_gerenciador_bordo.png) !important;
+}
+
+.veiculo_horimetro{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_horimetro.png) !important;
+}
+
+.veiculo_mensagem{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_mensagem.png) !important;
+}
+
+.veiculo_movimento{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_movimento.png) !important;
+}
+
+.veiculo_movimento_indevido{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_movimento_indevido.png) !important;
+}
+
+.veiculo_passageiro{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_passageiro.png) !important;
+}
+
+.veiculo_posicao{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_posicao.png) !important;
+}
+
+.veiculo_troca_central{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_troca_central.png) !important;
+}
+
+.veiculo_velocidade{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_velocidade.png) !important;
+}
+
+.veiculo_vel_melhoramento{
+	background-image: url(../../../jornada/imagens/16x16/veiculo_velocidade_melhoramento.png) !important;
+}
+
+.desenho{
+	background-image: url(../../../jornada/imagens/16x16/desenho.png) !important;
+}
+
+.zona_proibida{
+	background-image: url(../../../jornada/imagens/16x16/zona_proibida.png) !important;
+}
+
+.desvincular{
+	background-image: url(../../../jornada/imagens/16x16/desvincular.png) !important;
+}
+
+.veiculo_gs_control{
+	background-image: url(../../../jornada/imagens/16x16/gs_control.png) !important;
+}
+
+.callcenter{
+	background-image: url(../../../jornada/imagens/16x16/callcenter.gif) !important;
+}
+
+.visao{
+	background-image: url(../../../jornada/imagens/16x16/visao.png) !important;
+}
+
+/* STATUS DO VEICULO */
+.tag{
+	background-image: url(../../../jornada/imagens/16x16/tag.png) !important;
+}
+.tag_red{
+	background-image: url(../../../jornada/imagens/16x16/tag_red.png) !important;
+}
+.tag_blue{
+	background-image: url(../../../jornada/imagens/16x16/tag_blue.png) !important;
+}
+.tag_yellow{
+	background-image: url(../../../jornada/imagens/16x16/tag_yellow.png) !important;
+}
+.tag_white{
+	background-image: url(../../../jornada/imagens/16x16/tag_white.png) !important;
+}
+.tag_green{
+	background-image: url(../../../jornada/imagens/16x16/tag_green.png) !important;
+}
+.tag_orange{
+	background-image: url(../../../jornada/imagens/16x16/tag_orange.png) !important;
+}
+/*********************/
+
+/*PAGINACAO*/
+.page-first-disabled {
+    background-image: url(../../../jornada/imagens/16x16/page-first-disabled.gif) !important;
+}
+.page-last-disabled {
+    background-image: url(../../../jornada/imagens/16x16/page-last-disabled.gif) !important;
+}
+.page-first {
+    background-image: url(../../../jornada/imagens/16x16/page-first.gif) !important;
+}
+.page-last {
+    background-image: url(../../../jornada/imagens/16x16/page-last.gif) !important;
+}
+.page-prev-disabled {
+    background-image: url(../../../jornada/imagens/16x16/page-prev-disabled.gif) !important;
+}
+.page-prev {
+    background-image: url(../../../jornada/imagens/16x16/page-prev.gif) !important;
+}
+.page-next-disabled {
+    background-image: url(../../../jornada/imagens/16x16/page-next-disabled.gif) !important;
+}
+.page-next {
+    background-image: url(../../../jornada/imagens/16x16/page-next.gif) !important;
+}
+/*
+.bkg_title {
+    background-image: url(../imagens/template/logo_cielo_simp.png) !important;
+}
+*/
+/************/
+/*FUNÇÃO PARA QUEBRAR LINHAS NA TABELA DEVE SER CHAMADA => tdCls: 'wrap'*/
+.wrap .x-grid-cell-inner {
+    white-space: normal;
+}
+
+/* Muda a cor de fundo da linha do grid e o tipo do cursor */
+.afastamento .x-grid-cell{
+    background-color: #C0D9D9;
+    cursor: pointer;
+}
+
+.feriadoBancoHoras .x-grid-cell{
+    background-color: #C0D9D9;
+}
+
+.domingoCartaoPonto .x-grid-cell{
+    background-color: #C0D9D9;
+    cursor: pointer;
+}
+
+/* Muda o cursor na linha do grid */
+.gridPointerRow .x-grid-cell{
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="df714b43-ce58-4656-b24a-b19709f5ba57" name="JornadaDev" url="http://172.16.254.19">
+        <fileTransfer host="172.16.254.19" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="adeb1b62-88b0-468d-8e6e-6a60d1e918dd" name="JornadaOficial" url="http://172.16.254.19">
+        <fileTransfer host="172.16.254.19" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

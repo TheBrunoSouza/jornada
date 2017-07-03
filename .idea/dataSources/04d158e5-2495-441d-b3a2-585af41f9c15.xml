@@ -1,0 +1,3193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Jornada">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="JORNADA">
+      <ObjectId>85</ObjectId>
+      <IntrospectionTimestamp>2017-04-13.15:32:08</IntrospectionTimestamp>
+      <CreatedTimestamp>2016-08-22.17:27:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-13.15:30:36</ModifiedTimestamp>
+      <CommentsHash>111608656170426</CommentsHash>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="SYSMAN">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="MGMT_VIEW">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="EXFSYS">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="IMON">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="XDB">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ANONYMOUS">
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="MONITORAMENTO">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="MONIT_SELECT">
+      <ObjectId>64</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MONITORAMENTO_BACKUPS">
+      <ObjectId>71</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="CIELOAGRO">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="SERVICOS">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="EAGLE4">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="MOBILE">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="BEGDBA">
+      <ObjectId>77</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MONIT_EXTERNAL">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="GRUPOCIELO">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="SOFTLOG">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="GEOPOSICIONAMENTO">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="EAGLELOG">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="CIGAM_RASTRE">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="CIGAM">
+      <ObjectId>95</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="34" parent="2" name="SEQ_AFASTAMENTO">
+      <ObjectId>267500</ObjectId>
+      <CreatedTimestamp>2017-01-12.17:07:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-12.17:07:47</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="35" parent="2" name="SEQ_ALERTAS">
+      <ObjectId>242453</ObjectId>
+      <CreatedTimestamp>2016-09-22.00:47:46</CreatedTimestamp>
+      <ModifiedTimestamp>2016-09-22.00:47:46</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="36" parent="2" name="SEQ_BANCO_CONDUTOR">
+      <ObjectId>275497</ObjectId>
+      <CreatedTimestamp>2017-02-24.11:47:32</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-24.11:47:32</ModifiedTimestamp>
+      <SequenceIdentity>1..99999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="37" parent="2" name="SEQ_BANCO_CONDUTOR_DIA">
+      <ObjectId>304149</ObjectId>
+      <CreatedTimestamp>2017-03-21.10:04:20</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-29.11:55:10</ModifiedTimestamp>
+      <SequenceIdentity>1..999999999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="38" parent="2" name="SEQ_BANCO_FECHAMENTO">
+      <ObjectId>305004</ObjectId>
+      <CreatedTimestamp>2017-03-29.11:49:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-29.11:49:10</ModifiedTimestamp>
+      <SequenceIdentity>1..999999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="39" parent="2" name="SEQ_BANCO_HORAS">
+      <ObjectId>274131</ObjectId>
+      <CreatedTimestamp>2017-02-23.11:50:24</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-23.11:51:03</ModifiedTimestamp>
+      <SequenceIdentity>1..99999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="40" parent="2" name="SEQ_CONFIGURACAO">
+      <ObjectId>240644</ObjectId>
+      <CreatedTimestamp>2016-09-04.22:53:59</CreatedTimestamp>
+      <ModifiedTimestamp>2016-09-04.22:53:59</ModifiedTimestamp>
+      <SequenceIdentity>2..99999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="41" parent="2" name="SEQ_CONFIG_SITUACAO">
+      <ObjectId>240642</ObjectId>
+      <CreatedTimestamp>2016-09-04.22:49:39</CreatedTimestamp>
+      <ModifiedTimestamp>2016-09-04.22:49:39</ModifiedTimestamp>
+      <SequenceIdentity>1..99999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="42" parent="2" name="SEQ_EVENTOS_JORNADA">
+      <ObjectId>276181</ObjectId>
+      <CreatedTimestamp>2017-02-27.21:37:18</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-27.21:37:18</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+    </sequence>
+    <sequence id="43" parent="2" name="SEQ_EVENTO_JORNADA_LOG">
+      <ObjectId>276277</ObjectId>
+      <CreatedTimestamp>2017-02-28.18:52:25</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-28.18:52:48</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+    </sequence>
+    <sequence id="44" parent="2" name="SEQ_FERIADO">
+      <ObjectId>304877</ObjectId>
+      <CreatedTimestamp>2017-03-27.13:59:13</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-27.13:59:13</ModifiedTimestamp>
+      <SequenceIdentity>0..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <Cycled>1</Cycled>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="45" parent="2" name="SEQ_JORNADA">
+      <ObjectId>238756</ObjectId>
+      <CreatedTimestamp>2016-08-25.10:33:55</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-25.10:33:55</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="46" parent="2" name="SEQ_JORNADA_LOG">
+      <ObjectId>246897</ObjectId>
+      <CreatedTimestamp>2016-10-24.15:24:36</CreatedTimestamp>
+      <ModifiedTimestamp>2016-10-24.15:24:36</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="47" parent="2" name="SEQ_REG_FECHAMENTO">
+      <ObjectId>266001</ObjectId>
+      <CreatedTimestamp>2016-12-29.09:53:33</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-29.09:53:33</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="48" parent="2" name="SEQ_TP_MOVIMENTO">
+      <ObjectId>266007</ObjectId>
+      <CreatedTimestamp>2016-12-29.10:11:39</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-29.10:11:39</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="49" parent="2" name="SEQ_USUARIO">
+      <ObjectId>244448</ObjectId>
+      <CreatedTimestamp>2016-10-07.09:24:54</CreatedTimestamp>
+      <ModifiedTimestamp>2016-10-07.09:24:54</ModifiedTimestamp>
+      <SequenceIdentity>1..9999999999</SequenceIdentity>
+      <Ordered>1</Ordered>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <table id="50" parent="2" name="AFASTAMENTO">
+      <ObjectId>267496</ObjectId>
+      <CreatedTimestamp>2017-01-12.17:04:07</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-13.10:26:34</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="51" parent="2" name="AFAST_MOTIVO">
+      <ObjectId>267497</ObjectId>
+      <CreatedTimestamp>2017-01-12.17:05:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-12.17:06:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="52" parent="2" name="ALERTAS">
+      <ObjectId>242439</ObjectId>
+      <CreatedTimestamp>2016-09-22.00:31:18</CreatedTimestamp>
+      <ModifiedTimestamp>2016-09-30.10:47:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="53" parent="2" name="ALERTA_SITUACAO">
+      <ObjectId>242441</ObjectId>
+      <CreatedTimestamp>2016-09-22.00:42:31</CreatedTimestamp>
+      <ModifiedTimestamp>2016-09-30.09:50:03</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="54" parent="2" name="BANCO_CONDUTOR">
+      <ObjectId>273816</ObjectId>
+      <CreatedTimestamp>2017-02-20.15:30:15</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-13.10:44:05</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="55" parent="2" name="BANCO_CONDUTOR_DIA">
+      <ObjectId>273635</ObjectId>
+      <CreatedTimestamp>2017-02-20.14:56:18</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-28.10:23:01</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="56" parent="2" name="BANCO_FECHAMENTO">
+      <ObjectId>276449</ObjectId>
+      <CreatedTimestamp>2017-03-02.18:10:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-05.17:42:41</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="57" parent="2" name="BANCO_HORAS">
+      <ObjectId>273633</ObjectId>
+      <CreatedTimestamp>2017-02-20.14:47:20</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-13.10:43:44</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="58" parent="2" name="BANCO_HORASS">
+      <ObjectId>266000</ObjectId>
+      <CreatedTimestamp>2016-12-29.09:39:17</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-20.14:48:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="59" parent="2" name="BANCO_HORAS_LOG">
+      <ObjectId>273818</ObjectId>
+      <CreatedTimestamp>2017-02-20.15:37:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-20.15:37:54</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="60" parent="2" name="BANCO_HORAS_PERIODO">
+      <ObjectId>275495</ObjectId>
+      <CreatedTimestamp>2017-02-24.08:45:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-11.11:34:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="61" parent="2" name="BANCO_HORAS_REGCONDUTOR">
+      <ObjectId>266008</ObjectId>
+      <CreatedTimestamp>2016-12-29.10:36:33</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-09.15:40:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="62" parent="2" name="BANCO_HORAS_REGFECHAMENTO">
+      <ObjectId>266002</ObjectId>
+      <CreatedTimestamp>2016-12-29.09:55:17</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-06.14:30:14</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="63" parent="2" name="BANCO_HORAS_TPMOVIMENTO">
+      <ObjectId>266005</ObjectId>
+      <CreatedTimestamp>2016-12-29.10:11:00</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-07.10:05:51</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="64" parent="2" name="BANCO_TP_FECHAMENTO">
+      <ObjectId>285630</ObjectId>
+      <CreatedTimestamp>2017-03-09.15:58:43</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-10.10:50:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="65" parent="2" name="BKP_EVENTOS_JORNADA">
+      <ObjectId>276160</ObjectId>
+      <CreatedTimestamp>2017-02-27.18:02:16</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-27.23:05:34</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="66" parent="2" name="BKP_STATUS_TECLADO">
+      <ObjectId>276161</ObjectId>
+      <CreatedTimestamp>2017-02-27.18:09:05</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-27.22:42:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="67" parent="2" name="CONFIGURACAO">
+      <ObjectId>240165</ObjectId>
+      <CreatedTimestamp>2016-08-30.23:22:30</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-06.09:32:45</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="68" parent="2" name="CONFIGURACAO_SITUACAO">
+      <ObjectId>240163</ObjectId>
+      <CreatedTimestamp>2016-08-30.22:51:42</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-06.09:54:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="69" parent="2" name="CONFIG_SITUACAO_CODIGO">
+      <ObjectId>240183</ObjectId>
+      <CreatedTimestamp>2016-08-31.21:52:14</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-05.16:12:13</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="70" parent="2" name="EMPRESA_JORNADA">
+      <ObjectId>241568</ObjectId>
+      <CreatedTimestamp>2016-09-12.23:38:27</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-05.14:27:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="71" parent="2" name="EVENTO_JORNADA_LOG">
+      <ObjectId>276275</ObjectId>
+      <CreatedTimestamp>2017-02-28.18:51:24</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-28.18:56:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="72" parent="2" name="FERIADO">
+      <ObjectId>273820</ObjectId>
+      <CreatedTimestamp>2017-02-20.15:41:42</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-20.16:53:19</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="73" parent="2" name="GRUPO">
+      <ObjectId>238702</ObjectId>
+      <CreatedTimestamp>2016-08-23.17:22:04</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-23.17:22:04</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="74" parent="2" name="JORNADA">
+      <ObjectId>237083</ObjectId>
+      <CreatedTimestamp>2016-08-22.17:29:00</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.15:22:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="75" parent="2" name="JORNADA_LOG">
+      <ObjectId>237085</ObjectId>
+      <CreatedTimestamp>2016-08-22.17:29:44</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-13.16:41:40</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="76" parent="2" name="JORNADA_TMP">
+      <ObjectId>244897</ObjectId>
+      <CreatedTimestamp>2016-10-10.08:05:39</CreatedTimestamp>
+      <ModifiedTimestamp>2016-10-10.08:05:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="77" parent="2" name="MODULOS">
+      <ObjectId>238553</ObjectId>
+      <CreatedTimestamp>2016-08-23.17:19:07</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-23.17:19:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="78" parent="2" name="MODULO_GRUPO">
+      <ObjectId>238704</ObjectId>
+      <CreatedTimestamp>2016-08-23.17:22:47</CreatedTimestamp>
+      <ModifiedTimestamp>2016-09-09.09:36:17</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="79" parent="2" name="MODULO_USUARIO">
+      <ObjectId>238555</ObjectId>
+      <CreatedTimestamp>2016-08-23.17:21:29</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-23.17:21:47</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="80" parent="2" name="SITUACAO">
+      <ObjectId>237079</ObjectId>
+      <CreatedTimestamp>2016-08-22.17:27:41</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-22.17:27:45</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="81" parent="2" name="USUARIO">
+      <ObjectId>237081</ObjectId>
+      <CreatedTimestamp>2016-08-22.17:28:31</CreatedTimestamp>
+      <ModifiedTimestamp>2016-09-12.16:14:33</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <package id="82" parent="2" name="PKG_ALERTAS">
+      <ObjectId>242437</ObjectId>
+      <CreatedTimestamp>2016-09-21.22:57:55</CreatedTimestamp>
+      <ModifiedTimestamp>2016-09-21.22:59:45</ModifiedTimestamp>
+    </package>
+    <package id="83" parent="2" name="PKG_BANCO_HORAS">
+      <ObjectId>304064</ObjectId>
+      <CreatedTimestamp>2017-03-27.10:27:35</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-05.17:07:04</ModifiedTimestamp>
+    </package>
+    <package id="84" parent="2" name="PKG_GERA_EVENTOS">
+      <ObjectId>276179</ObjectId>
+      <CreatedTimestamp>2017-02-27.18:18:51</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-27.23:47:11</ModifiedTimestamp>
+    </package>
+    <package id="85" parent="2" name="PKG_JORNADA">
+      <ObjectId>238705</ObjectId>
+      <CreatedTimestamp>2016-08-23.17:25:09</CreatedTimestamp>
+      <ModifiedTimestamp>2016-10-01.18:18:21</ModifiedTimestamp>
+    </package>
+    <package id="86" parent="2" name="PKG_JORNADA_CORRECAO">
+      <ObjectId>276255</ObjectId>
+      <CreatedTimestamp>2017-02-27.23:40:07</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-27.23:40:07</ModifiedTimestamp>
+    </package>
+    <package id="87" parent="2" name="PKG_JORNADA_DEV">
+      <ObjectId>243932</ObjectId>
+      <CreatedTimestamp>2016-10-03.11:10:48</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-07.18:05:19</ModifiedTimestamp>
+    </package>
+    <routine id="88" parent="2" name="GETEMPRESA">
+      <ObjectId>242456</ObjectId>
+      <RoutineKind>function</RoutineKind>
+      <CreatedTimestamp>2016-09-22.10:48:00</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-24.17:13:10</ModifiedTimestamp>
+    </routine>
+    <routine id="89" parent="2" name="GETINTERVALTOCHAR">
+      <ObjectId>243033</ObjectId>
+      <RoutineKind>function</RoutineKind>
+      <CreatedTimestamp>2016-09-26.15:43:22</CreatedTimestamp>
+      <ModifiedTimestamp>2016-09-26.15:51:21</ModifiedTimestamp>
+    </routine>
+    <routine id="90" parent="2" name="GETINTERVALTONUMBER">
+      <ObjectId>242458</ObjectId>
+      <RoutineKind>function</RoutineKind>
+      <CreatedTimestamp>2016-09-22.11:25:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-09-22.11:25:57</ModifiedTimestamp>
+    </routine>
+    <column id="91" parent="50" name="ID_AFASTAMENTO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="50" name="MOTIVO">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="93" parent="50" name="DATA_INI">
+      <Position>3</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="94" parent="50" name="DATA_FIM">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="95" parent="50" name="OBS">
+      <Position>5</Position>
+      <DataType>VARCHAR2(2000)|0</DataType>
+    </column>
+    <column id="96" parent="50" name="USUARIO">
+      <Position>6</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="97" parent="50" name="DATA_CAD">
+      <Position>7</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE 
+</DefaultExpression>
+    </column>
+    <column id="98" parent="50" name="CONDUTOR">
+      <Position>8</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="99" parent="50" name="PK_AFASTAMENTO">
+      <ObjectId>267499</ObjectId>
+      <CreatedTimestamp>2017-01-12.17:07:14</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-12.17:07:14</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_AFASTAMENTO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="100" parent="50" name="PK_AFASTAMENTO">
+      <ModifiedTimestamp>2017-01-12.17:07:14</ModifiedTimestamp>
+      <ColNames>ID_AFASTAMENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_AFASTAMENTO</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="101" parent="50" name="FK_AFAST_MOTIVO">
+      <ModifiedTimestamp>2017-01-12.17:07:14</ModifiedTimestamp>
+      <ColNames>MOTIVO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>AFAST_MOTIVO</RefTableName>
+      <RefKeyName>PK_AFAST_MOTIVO</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="102" parent="51" name="ID_MOTIVO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="51" name="DESCRICAO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <index id="104" parent="51" name="PK_AFAST_MOTIVO">
+      <ObjectId>267498</ObjectId>
+      <CreatedTimestamp>2017-01-12.17:06:11</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-12.17:06:11</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_MOTIVO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="105" parent="51" name="PK_AFAST_MOTIVO">
+      <ModifiedTimestamp>2017-01-12.17:06:11</ModifiedTimestamp>
+      <ColNames>ID_MOTIVO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_AFAST_MOTIVO</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="106" parent="52" name="ID_ALERTA">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="52" name="DESCRICAO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="108" parent="52" name="DATA_HORA">
+      <Position>3</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="109" parent="52" name="PLACA">
+      <Position>4</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="110" parent="52" name="CONDUTOR">
+      <Position>5</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="111" parent="52" name="JORNADA">
+      <Position>6</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="112" parent="52" name="JUSTIFICADO">
+      <Position>7</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="113" parent="52" name="USUARIO">
+      <Position>8</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="114" parent="52" name="DATA_HORA_ATEND">
+      <Position>9</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="115" parent="52" name="DATA_GERACAO">
+      <Position>10</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE</DefaultExpression>
+    </column>
+    <index id="116" parent="52" name="PK_ALERTAS">
+      <ObjectId>242440</ObjectId>
+      <CreatedTimestamp>2016-09-22.00:31:46</CreatedTimestamp>
+      <ModifiedTimestamp>2016-09-22.00:31:46</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_ALERTA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="117" parent="52" name="PK_ALERTAS">
+      <ModifiedTimestamp>2016-09-22.00:31:46</ModifiedTimestamp>
+      <ColNames>ID_ALERTA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_ALERTAS</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="118" parent="52" name="FK_ALERTAS_JORNADA">
+      <ModifiedTimestamp>2016-09-30.10:47:53</ModifiedTimestamp>
+      <ColNames>JORNADA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>JORNADA</RefTableName>
+      <RefKeyName>JORNADA_TRABALHO_PK</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="119" parent="52" name="FK_ALERTAS_USUARIO">
+      <ModifiedTimestamp>2016-09-22.00:33:14</ModifiedTimestamp>
+      <ColNames>USUARIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>USUARIO</RefTableName>
+      <RefKeyName>USUARIO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="120" parent="53" name="ID_ALERTA_SITUACAO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="53" name="DESCRICAO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="122" parent="53" name="SITUACAO">
+      <Position>3</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="53" name="TEMPO_MIN">
+      <Position>4</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="124" parent="53" name="TEMPO_MAX">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="125" parent="53" name="EMPRESA">
+      <Position>6</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="126" parent="53" name="CONFIG_SITUACAO">
+      <Position>7</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <index id="127" parent="53" name="ALERTA_SITUACAO_PK">
+      <ObjectId>242452</ObjectId>
+      <CreatedTimestamp>2016-09-22.00:42:46</CreatedTimestamp>
+      <ModifiedTimestamp>2016-09-22.00:42:46</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_ALERTA_SITUACAO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="128" parent="53" name="ALERTA_SITUACAO_PK">
+      <ModifiedTimestamp>2016-09-22.00:42:46</ModifiedTimestamp>
+      <ColNames>ID_ALERTA_SITUACAO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ALERTA_SITUACAO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="129" parent="53" name="ALERTA_SITUACAO_SITUACAO_FK">
+      <ModifiedTimestamp>2016-09-22.00:43:12</ModifiedTimestamp>
+      <ColNames>SITUACAO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>SITUACAO</RefTableName>
+      <RefKeyName>SITUACAO_PK</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="130" parent="54" name="ID_BANCO_CONDUTOR">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="131" parent="54" name="CONDUTOR">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="132" parent="54" name="SALDO_INI">
+      <Position>3</Position>
+      <Comment>Saldo inicial informado pelo usuário</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0 </DefaultExpression>
+    </column>
+    <column id="133" parent="54" name="ACUMULADO">
+      <Position>4</Position>
+      <Comment>Total de tempo em minutos de trabalho efetuado durante o período do banco_hora</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0 </DefaultExpression>
+    </column>
+    <column id="134" parent="54" name="SALDO_ATUAL">
+      <Position>5</Position>
+      <Comment>Total de tempo em minutos de (acumulado - saldo_ini)</Comment>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <DefaultExpression>0 </DefaultExpression>
+    </column>
+    <column id="135" parent="54" name="ID_BANCO_HORAS">
+      <Position>6</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="136" parent="54" name="DATA_INI">
+      <Position>7</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="137" parent="54" name="DATA_FIM">
+      <Position>8</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="138" parent="54" name="MIN_TOTAL">
+      <Position>9</Position>
+      <Comment>Total em minutos do tempo de trabalho a ser realizado com base no tempo previsto especificado no banco_horas</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="139" parent="54" name="ATIVO">
+      <Position>10</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;T&apos; </DefaultExpression>
+    </column>
+    <index id="140" parent="54" name="TABLE1_PK">
+      <ObjectId>273817</ObjectId>
+      <CreatedTimestamp>2017-02-20.15:30:15</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-20.15:30:15</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_BANCO_CONDUTOR</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="141" parent="54" name="TABLE1_PK">
+      <ModifiedTimestamp>2017-02-20.15:30:15</ModifiedTimestamp>
+      <ColNames>ID_BANCO_CONDUTOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TABLE1_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="142" parent="54" name="TRG_BANCO_CONDUTOR">
+      <ObjectId>305173</ObjectId>
+      <Invalid>1</Invalid>
+      <CreatedTimestamp>2017-03-31.15:08:04</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-31.16:48:43</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>after-row</Turn>
+    </trigger>
+    <column id="143" parent="55" name="ID_BC_DIA">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="144" parent="55" name="DATA">
+      <Position>2</Position>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="55" name="CONDUTOR">
+      <Position>3</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="146" parent="55" name="ACUMULADO_ANT">
+      <Position>4</Position>
+      <Comment>Total em minutos de trabalho acumulado até o dia anterior</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="147" parent="55" name="MINUTOS_TRAB">
+      <Position>5</Position>
+      <Comment>Tempo em minutos de trabalho do dia</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="148" parent="55" name="ACUMULADO_TOTAL">
+      <Position>6</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="149" parent="55" name="FERIADO">
+      <Position>7</Position>
+      <Comment>Indica se o dia é um feriado</Comment>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;F&apos; 
+</DefaultExpression>
+    </column>
+    <column id="150" parent="55" name="DIA_DESCANSO">
+      <Position>8</Position>
+      <Comment>Indica se o dia é um descanso</Comment>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;F&apos; 
+</DefaultExpression>
+    </column>
+    <column id="151" parent="55" name="ID_BANCO_COND">
+      <Position>9</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="152" parent="55" name="SALDO">
+      <Position>10</Position>
+      <Comment>Indica o saldo do dia, levando em consideração o tempo previsto de trab p o dia e o tempo efetivo do trab</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="153" parent="55" name="ACUMULADO_DIA">
+      <Position>11</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="154" parent="55" name="BANCO_CONDUTOR_PK">
+      <ObjectId>273636</ObjectId>
+      <CreatedTimestamp>2017-02-20.14:56:19</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-20.14:56:19</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_BC_DIA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="155" parent="55" name="BANCO_CONDUTOR_PK">
+      <ModifiedTimestamp>2017-02-20.14:56:19</ModifiedTimestamp>
+      <ColNames>ID_BC_DIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BANCO_CONDUTOR_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="156" parent="56" name="ID_BANCO_FECHAMENTO">
+      <Position>1</Position>
+      <DataType>NUMBER(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="157" parent="56" name="CONDUTOR">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="158" parent="56" name="SALDO">
+      <Position>3</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="159" parent="56" name="DATA_INI">
+      <Position>4</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="160" parent="56" name="DATA_FIM">
+      <Position>5</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="161" parent="56" name="TIPO_FECHAMENTO">
+      <Position>6</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="162" parent="56" name="ID_BANCO_HORAS">
+      <Position>7</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="163" parent="56" name="TOTAL_TRABALHADO">
+      <Position>8</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="164" parent="56" name="SALDO_INI">
+      <Position>9</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="165" parent="56" name="OBS_FECHAMENTO">
+      <Position>10</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="166" parent="56" name="USER_FECHAMENTO">
+      <Position>11</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="167" parent="56" name="DT_FECHAMENTO">
+      <Position>12</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="168" parent="56" name="MEDIA_TRAB_DIA">
+      <Position>13</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="169" parent="56" name="DIAS_VALOR_DOBRADO">
+      <Position>14</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="170" parent="56" name="MEDIA_TRAB_SEM">
+      <Position>15</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="171" parent="56" name="TOTAL_PREVISTO">
+      <Position>16</Position>
+      <Comment>Total previsto de trabalho no periodo</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="172" parent="56" name="BANCO_FECHAMENTO_PK">
+      <ObjectId>305843</ObjectId>
+      <CreatedTimestamp>2017-04-05.17:42:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-05.17:42:41</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_BANCO_FECHAMENTO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="173" parent="56" name="BANCO_FECHAMENTO_PK">
+      <ModifiedTimestamp>2017-04-05.17:42:41</ModifiedTimestamp>
+      <ColNames>ID_BANCO_FECHAMENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BANCO_FECHAMENTO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="174" parent="57" name="ID_BANCO_HORAS">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="175" parent="57" name="DATA_INI">
+      <Position>2</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="176" parent="57" name="MIN_SEMANA">
+      <Position>3</Position>
+      <Comment>Tempo de trabalho em minutos previsto durante a semana</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>480 </DefaultExpression>
+    </column>
+    <column id="177" parent="57" name="USER_ID_CAD">
+      <Position>4</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="178" parent="57" name="DATA_CAD">
+      <Position>5</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="179" parent="57" name="MIN_SAB">
+      <Position>6</Position>
+      <Comment>Tempo de trabalho em minutos previsto no sábado</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>240 </DefaultExpression>
+    </column>
+    <column id="180" parent="57" name="USER_NAME_CAD">
+      <Position>7</Position>
+      <DataType>VARCHAR2(2000)|0</DataType>
+    </column>
+    <column id="181" parent="57" name="VENCIMENTO">
+      <Position>8</Position>
+      <Comment>Data de fechamento do banco de horas</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="182" parent="57" name="PERIODO">
+      <Position>9</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="183" parent="57" name="EMPRESA">
+      <Position>10</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="184" parent="57" name="ATIVO">
+      <Position>11</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;T&apos; </DefaultExpression>
+    </column>
+    <index id="185" parent="57" name="BANCO_HORA_PK">
+      <ObjectId>273634</ObjectId>
+      <CreatedTimestamp>2017-02-20.14:47:20</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-20.14:47:20</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_BANCO_HORAS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="186" parent="57" name="BANCO_HORA_PK">
+      <ModifiedTimestamp>2017-02-20.14:47:20</ModifiedTimestamp>
+      <ColNames>ID_BANCO_HORAS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BANCO_HORA_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="187" parent="58" name="ID_BANCOHORAS">
+      <Position>1</Position>
+      <Comment>Primay_Key formada pelos dados: ID_EMPRESA+ID_CONDUTOR</Comment>
+      <DataType>NUMBER(12)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="188" parent="58" name="CONDUTOR">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="189" parent="58" name="DATA_DB">
+      <Position>3</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE</DefaultExpression>
+    </column>
+    <column id="190" parent="58" name="DATA_INI">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="191" parent="58" name="DATA_FIM">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="192" parent="58" name="USUARIO">
+      <Position>6</Position>
+      <DataType>VARCHAR2(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="193" parent="58" name="BANCO_HORAS_PK">
+      <ObjectId>266004</ObjectId>
+      <CreatedTimestamp>2016-12-29.10:06:09</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-29.10:06:09</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_BANCOHORAS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="194" parent="58" name="BANCO_HORAS_PK">
+      <ModifiedTimestamp>2016-12-29.10:06:09</ModifiedTimestamp>
+      <ColNames>ID_BANCOHORAS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BANCO_HORAS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="195" parent="59" name="ID_LOG_BANC_HR">
+      <Position>1</Position>
+      <DataType>NUMBER(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="196" parent="59" name="SALDO_ANT">
+      <Position>2</Position>
+      <Comment>Tempo em minutos do saldo atual (banco_condutor) antes do usuário alterar</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0 
+</DefaultExpression>
+    </column>
+    <column id="197" parent="59" name="SALDO_NOVO">
+      <Position>3</Position>
+      <Comment>Tempo em minutos do saldo_atual (banco_condutor) após o usuário editar</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0 
+</DefaultExpression>
+    </column>
+    <column id="198" parent="59" name="USER_ALT">
+      <Position>4</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="199" parent="59" name="DESCRICAO">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="200" parent="59" name="ID_BANCO_COND">
+      <Position>6</Position>
+      <DataType>NUMBER(20)|0</DataType>
+    </column>
+    <index id="201" parent="59" name="LOG_BANCO_HORAS_PK">
+      <ObjectId>273819</ObjectId>
+      <CreatedTimestamp>2017-02-20.15:37:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-20.15:37:36</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_LOG_BANC_HR</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="202" parent="59" name="LOG_BANCO_HORAS_PK">
+      <ModifiedTimestamp>2017-02-20.15:37:36</ModifiedTimestamp>
+      <ColNames>ID_LOG_BANC_HR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>LOG_BANCO_HORAS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="203" parent="60" name="ID_PERIODO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="204" parent="60" name="DESCRICAO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <index id="205" parent="60" name="PERIODO_BANCO_HORAS_PK">
+      <ObjectId>275496</ObjectId>
+      <CreatedTimestamp>2017-02-24.08:45:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-24.08:45:36</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_PERIODO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="206" parent="60" name="PERIODO_BANCO_HORAS_PK">
+      <ModifiedTimestamp>2017-02-24.08:45:36</ModifiedTimestamp>
+      <ColNames>ID_PERIODO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PERIODO_BANCO_HORAS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="207" parent="61" name="REGCONDUTOR">
+      <Position>1</Position>
+      <Comment>O próprio ID_BANCOHORAS como FK</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="208" parent="61" name="DATA_DB">
+      <Position>2</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE</DefaultExpression>
+    </column>
+    <column id="209" parent="61" name="ACUM_ANTERIOR">
+      <Position>3</Position>
+      <DataType>NUMBER(10,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="210" parent="61" name="ACUM_ATUAL">
+      <Position>4</Position>
+      <DataType>NUMBER(10,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="211" parent="61" name="FK_REGCONDUTOR">
+      <ModifiedTimestamp>2016-12-29.10:42:12</ModifiedTimestamp>
+      <ColNames>REGCONDUTOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>BANCO_HORASS</RefTableName>
+      <RefKeyName>BANCO_HORAS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="212" parent="62" name="ID_REGFECHAMENTO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="213" parent="62" name="BANCOHORAS">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="214" parent="62" name="DATA_DB">
+      <Position>3</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE</DefaultExpression>
+    </column>
+    <column id="215" parent="62" name="ACUM_ANTERIOR">
+      <Position>4</Position>
+      <DataType>NUMBER(10,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="216" parent="62" name="HR_COMPUTADAS">
+      <Position>5</Position>
+      <DataType>NUMBER(10,2)|0</DataType>
+    </column>
+    <column id="217" parent="62" name="ACUM_ATUAL">
+      <Position>6</Position>
+      <DataType>NUMBER(10,2)|0</DataType>
+    </column>
+    <column id="218" parent="62" name="MOVIMENTO">
+      <Position>7</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="219" parent="62" name="OBSERVACAO">
+      <Position>8</Position>
+      <DataType>VARCHAR2(250)|0</DataType>
+    </column>
+    <column id="220" parent="62" name="USUARIO">
+      <Position>9</Position>
+      <DataType>VARCHAR2(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="221" parent="62" name="BANCO_HORAS_REGFECHAMENTO_PK">
+      <ObjectId>266003</ObjectId>
+      <CreatedTimestamp>2016-12-29.10:00:19</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-29.10:00:19</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_REGFECHAMENTO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="222" parent="62" name="BANCO_HORAS_REGFECHAMENTO_PK">
+      <ModifiedTimestamp>2016-12-29.10:00:19</ModifiedTimestamp>
+      <ColNames>ID_REGFECHAMENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BANCO_HORAS_REGFECHAMENTO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="223" parent="62" name="FK_BANCO_HORAS">
+      <ModifiedTimestamp>2016-12-29.10:06:20</ModifiedTimestamp>
+      <ColNames>BANCOHORAS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>BANCO_HORASS</RefTableName>
+      <RefKeyName>BANCO_HORAS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="224" parent="62" name="FK_MOVIMENTO">
+      <ModifiedTimestamp>2016-12-29.10:31:29</ModifiedTimestamp>
+      <ColNames>MOVIMENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>BANCO_HORAS_TPMOVIMENTO</RefTableName>
+      <RefKeyName>BANCO_HORAS_TPMOVIMENTO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="225" parent="62" name="TRG_REGFECHAMENTO">
+      <ObjectId>266010</ObjectId>
+      <CreatedTimestamp>2016-12-29.13:39:52</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-29.13:39:52</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="226" parent="63" name="ID_TPMOVIMENTO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="227" parent="63" name="DESC_MOVIMENTO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="228" parent="63" name="BANCO_HORAS_TPMOVIMENTO_PK">
+      <ObjectId>266006</ObjectId>
+      <CreatedTimestamp>2016-12-29.10:11:00</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-29.10:11:00</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_TPMOVIMENTO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="229" parent="63" name="BANCO_HORAS_TPMOVIMENTO_PK">
+      <ModifiedTimestamp>2016-12-29.10:11:00</ModifiedTimestamp>
+      <ColNames>ID_TPMOVIMENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BANCO_HORAS_TPMOVIMENTO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="230" parent="63" name="TRG_TPMOVIMENTO">
+      <ObjectId>266011</ObjectId>
+      <CreatedTimestamp>2016-12-29.13:41:43</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-07.10:05:51</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="231" parent="64" name="ID_TP_FECHAMENTO">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="232" parent="64" name="DESCRICAO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(60)|0</DataType>
+    </column>
+    <index id="233" parent="64" name="BANCO_TP_FECHAMENTO_PK">
+      <ObjectId>285631</ObjectId>
+      <CreatedTimestamp>2017-03-09.15:58:43</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-09.15:58:43</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_TP_FECHAMENTO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="234" parent="64" name="BANCO_TP_FECHAMENTO_PK">
+      <ModifiedTimestamp>2017-03-09.15:58:43</ModifiedTimestamp>
+      <ColNames>ID_TP_FECHAMENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BANCO_TP_FECHAMENTO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="235" parent="65" name="ID_EVENTO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="236" parent="65" name="CODIGO">
+      <Position>2</Position>
+      <DataType>NUMBER(5)|0</DataType>
+    </column>
+    <column id="237" parent="65" name="PLACA">
+      <Position>3</Position>
+      <DataType>VARCHAR2(8)|0</DataType>
+    </column>
+    <column id="238" parent="65" name="CONDUTOR">
+      <Position>4</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="239" parent="65" name="DADOS_HEXA">
+      <Position>5</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="240" parent="65" name="DATA_HORA">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="241" parent="65" name="DATA_DB">
+      <Position>7</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE 
+</DefaultExpression>
+    </column>
+    <index id="242" parent="65" name="PK_EVENTOS_JORNADA">
+      <ObjectId>276252</ObjectId>
+      <CreatedTimestamp>2017-02-27.23:01:29</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-27.23:01:29</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_EVENTO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="243" parent="65" name="BKP_EVENTOS_JORNADA_UK1">
+      <ObjectId>276253</ObjectId>
+      <CreatedTimestamp>2017-02-27.23:01:55</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-27.23:01:55</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>CODIGO
+PLACA
+CONDUTOR
+DADOS_HEXA
+DATA_HORA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="244" parent="65" name="UNQ_EVENTOS_JORNADA">
+      <ObjectId>276254</ObjectId>
+      <CreatedTimestamp>2017-02-27.23:05:34</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-27.23:05:34</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>PLACA
+CONDUTOR
+DATA_HORA
+DADOS_HEXA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="245" parent="65" name="IDX_EVENTOS_JORNADA">
+      <ObjectId>276178</ObjectId>
+      <CreatedTimestamp>2017-02-27.18:13:53</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-27.18:13:53</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>CODIGO
+CONDUTOR
+DATA_HORA</ColNames>
+    </index>
+    <key id="246" parent="65" name="PK_EVENTOS_JORNADA">
+      <ModifiedTimestamp>2017-02-27.23:01:29</ModifiedTimestamp>
+      <ColNames>ID_EVENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_EVENTOS_JORNADA</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="247" parent="65" name="BKP_EVENTOS_JORNADA_UK1">
+      <ModifiedTimestamp>2017-02-27.23:01:55</ModifiedTimestamp>
+      <ColNames>CODIGO
+PLACA
+CONDUTOR
+DADOS_HEXA
+DATA_HORA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BKP_EVENTOS_JORNADA_UK1</UnderlyingIndexName>
+    </key>
+    <key id="248" parent="65" name="UNQ_EVENTOS_JORNADA">
+      <ModifiedTimestamp>2017-02-27.23:05:34</ModifiedTimestamp>
+      <ColNames>PLACA
+CONDUTOR
+DATA_HORA
+DADOS_HEXA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>UNQ_EVENTOS_JORNADA</UnderlyingIndexName>
+    </key>
+    <column id="249" parent="66" name="CONDUTOR">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="250" parent="66" name="JORNADA">
+      <Position>2</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+    </column>
+    <column id="251" parent="66" name="REFEICAO">
+      <Position>3</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+    </column>
+    <column id="252" parent="66" name="DESCANSO">
+      <Position>4</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+    </column>
+    <column id="253" parent="66" name="ESPERA">
+      <Position>5</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+    </column>
+    <column id="254" parent="66" name="AUX1">
+      <Position>6</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+    </column>
+    <column id="255" parent="66" name="AUX2">
+      <Position>7</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+    </column>
+    <column id="256" parent="66" name="RESERVA">
+      <Position>8</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+    </column>
+    <column id="257" parent="66" name="MANOBRA">
+      <Position>9</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+    </column>
+    <column id="258" parent="66" name="DATA">
+      <Position>10</Position>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>SYSDATE</DefaultExpression>
+    </column>
+    <column id="259" parent="66" name="EMPRESA">
+      <Position>11</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="260" parent="66" name="CHAVEIRO">
+      <Position>12</Position>
+      <DataType>VARCHAR2(40)|0</DataType>
+    </column>
+    <index id="261" parent="66" name="STATUS_TECLADO_PK">
+      <ObjectId>276177</ObjectId>
+      <CreatedTimestamp>2017-02-27.18:09:05</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-27.18:09:05</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>CONDUTOR</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="262" parent="66" name="STATUS_TECLADO_PK">
+      <ModifiedTimestamp>2017-02-27.18:09:05</ModifiedTimestamp>
+      <ColNames>CONDUTOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>STATUS_TECLADO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="263" parent="66" name="FK_STATUS_CONDUTOR">
+      <ModifiedTimestamp>2017-02-27.18:16:34</ModifiedTimestamp>
+      <ColNames>CONDUTOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>CONDUTOR</RefTableName>
+      <RefKeyName>PK_CONDUTOR</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="264" parent="66" name="CK_SJT_JORNADA_TECLADO1">
+      <ModifiedTimestamp>2017-02-27.18:09:05</ModifiedTimestamp>
+      <ColNames>JORNADA</ColNames>
+      <Predicate>JORNADA IN (&apos;T&apos;,&apos;F&apos;)</Predicate>
+    </check>
+    <check id="265" parent="66" name="CK_SJT_JORNADA_TECLADO2">
+      <ModifiedTimestamp>2017-02-27.18:09:05</ModifiedTimestamp>
+      <ColNames>REFEICAO</ColNames>
+      <Predicate>REFEICAO IN (&apos;T&apos;,&apos;F&apos;)</Predicate>
+    </check>
+    <check id="266" parent="66" name="CK_SJT_JORNADA_TECLADO3">
+      <ModifiedTimestamp>2017-02-27.18:09:05</ModifiedTimestamp>
+      <ColNames>DESCANSO</ColNames>
+      <Predicate>DESCANSO IN (&apos;T&apos;,&apos;F&apos;)</Predicate>
+    </check>
+    <check id="267" parent="66" name="CK_SJT_JORNADA_TECLADO4">
+      <ModifiedTimestamp>2017-02-27.18:09:05</ModifiedTimestamp>
+      <ColNames>ESPERA</ColNames>
+      <Predicate>ESPERA IN (&apos;T&apos;,&apos;F&apos;)</Predicate>
+    </check>
+    <check id="268" parent="66" name="CK_SJT_JORNADA_TECLADO5">
+      <ModifiedTimestamp>2017-02-27.18:09:05</ModifiedTimestamp>
+      <ColNames>AUX1</ColNames>
+      <Predicate>AUX1 IN (&apos;T&apos;,&apos;F&apos;)</Predicate>
+    </check>
+    <check id="269" parent="66" name="CK_SJT_JORNADA_TECLADO6">
+      <ModifiedTimestamp>2017-02-27.18:09:05</ModifiedTimestamp>
+      <ColNames>AUX2</ColNames>
+      <Predicate>AUX2 IN (&apos;T&apos;,&apos;F&apos;)</Predicate>
+    </check>
+    <check id="270" parent="66" name="CK_SJT_JORNADA_TECLADO7">
+      <ModifiedTimestamp>2017-02-27.18:09:05</ModifiedTimestamp>
+      <ColNames>RESERVA</ColNames>
+      <Predicate>RESERVA IN (&apos;T&apos;,&apos;F&apos;)</Predicate>
+    </check>
+    <check id="271" parent="66" name="CK_SJT_JORNADA_TECLADO8">
+      <ModifiedTimestamp>2017-02-27.18:09:05</ModifiedTimestamp>
+      <ColNames>MANOBRA</ColNames>
+      <Predicate>MANOBRA IN (&apos;T&apos;,&apos;F&apos;)</Predicate>
+    </check>
+    <column id="272" parent="67" name="ID_CONFIGURACAO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="273" parent="67" name="DESCRICAO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="274" parent="67" name="EMPRESA">
+      <Position>3</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="275" parent="67" name="ESPERA">
+      <Position>4</Position>
+      <Comment>T = espera contabilizada dentro da jornada | F = espera somente depois do tempo de jornada</Comment>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;T&apos;</DefaultExpression>
+    </column>
+    <column id="276" parent="67" name="OBS">
+      <Position>5</Position>
+      <DataType>VARCHAR2(1000)|0</DataType>
+    </column>
+    <index id="277" parent="67" name="CONFIGURACAO_PK">
+      <ObjectId>240166</ObjectId>
+      <CreatedTimestamp>2016-08-30.23:22:53</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-30.23:22:53</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_CONFIGURACAO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="278" parent="67" name="CONFIGURACAO_PK">
+      <ModifiedTimestamp>2016-08-30.23:22:53</ModifiedTimestamp>
+      <ColNames>ID_CONFIGURACAO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>CONFIGURACAO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="279" parent="67" name="CONFIGURACAO_EMPRESA_FK">
+      <ModifiedTimestamp>2016-08-31.08:36:20</ModifiedTimestamp>
+      <ColNames>EMPRESA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>EMPRESA</RefTableName>
+      <RefKeyName>PK_EMPRESA</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="280" parent="67" name="TRG_CONFIGURACAO">
+      <ObjectId>240648</ObjectId>
+      <CreatedTimestamp>2016-09-04.23:00:59</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-28.15:32:50</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>after-row</Turn>
+    </trigger>
+    <column id="281" parent="68" name="ID_CONFIG_SITUACAO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="282" parent="68" name="CONFIGURACAO">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="283" parent="68" name="ATIVO">
+      <Position>3</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <column id="284" parent="68" name="HORA_INI">
+      <Position>4</Position>
+      <DataType>NUMBER(2)|0</DataType>
+    </column>
+    <column id="285" parent="68" name="HORA_FIM">
+      <Position>5</Position>
+      <DataType>NUMBER(2)|0</DataType>
+    </column>
+    <column id="286" parent="68" name="TEMPO">
+      <Position>6</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="287" parent="68" name="DATA_CAD">
+      <Position>7</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="288" parent="68" name="NEXT_SIT">
+      <Position>8</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="289" parent="68" name="SITUACAO">
+      <Position>9</Position>
+      <DataType>NUMBER(5)|0</DataType>
+    </column>
+    <column id="290" parent="68" name="TEMPO_MIN">
+      <Position>10</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="291" parent="68" name="TOTAL">
+      <Position>11</Position>
+      <Comment>Campo para definir se o tempo ou tempo minimo é sobre o total do dia ou sobre somente a situacao</Comment>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;T&apos;</DefaultExpression>
+    </column>
+    <column id="292" parent="68" name="TEMPO_DESCONTO">
+      <Position>12</Position>
+      <Comment>Tempo a descontar qdo atinge o maximo ou minimo.</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="293" parent="68" name="PK_EMPRESA_CONFIGURACAO">
+      <ObjectId>240164</ObjectId>
+      <CreatedTimestamp>2016-08-30.22:54:25</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-30.22:54:25</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_CONFIG_SITUACAO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="294" parent="68" name="PK_EMPRESA_CONFIGURACAO">
+      <ModifiedTimestamp>2016-08-30.22:54:25</ModifiedTimestamp>
+      <ColNames>ID_CONFIG_SITUACAO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_EMPRESA_CONFIGURACAO</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="295" parent="68" name="FK_EMP_CONF_CONFIGURACAO">
+      <ModifiedTimestamp>2016-08-31.08:42:37</ModifiedTimestamp>
+      <ColNames>CONFIGURACAO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>CONFIGURACAO</RefTableName>
+      <RefKeyName>CONFIGURACAO_PK</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="296" parent="68" name="FK_EMP_CONF_EMPRESA">
+      <ModifiedTimestamp>2016-08-31.22:43:12</ModifiedTimestamp>
+      <ColNames>SITUACAO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>SITUACAO</RefTableName>
+      <RefKeyName>SITUACAO_PK</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="297" parent="69" name="CONFIG_SITUACAO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="298" parent="69" name="CODIGO">
+      <Position>2</Position>
+      <DataType>NUMBER(5)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="299" parent="69" name="DIA">
+      <Position>3</Position>
+      <DataType>NUMBER(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="300" parent="69" name="SITUACAO">
+      <Position>4</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <index id="301" parent="69" name="EMPRESA_CONFIG_COD_PK">
+      <ObjectId>240184</ObjectId>
+      <CreatedTimestamp>2016-08-31.21:52:31</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-31.21:52:31</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>CONFIG_SITUACAO
+CODIGO
+DIA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="302" parent="69" name="EMPRESA_CONFIG_COD_PK">
+      <ModifiedTimestamp>2016-08-31.21:52:31</ModifiedTimestamp>
+      <ColNames>CONFIG_SITUACAO
+CODIGO
+DIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMPRESA_CONFIG_COD_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="303" parent="69" name="EMP_CONFIG_COD_FK">
+      <ModifiedTimestamp>2017-01-05.16:12:13</ModifiedTimestamp>
+      <ColNames>CONFIG_SITUACAO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>CONFIGURACAO_SITUACAO</RefTableName>
+      <RefKeyName>PK_EMPRESA_CONFIGURACAO</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="304" parent="70" name="EMPRESA">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="305" parent="70" name="DATA_INGRESSO">
+      <Position>2</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE</DefaultExpression>
+    </column>
+    <column id="306" parent="70" name="USUARIO_CAD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="307" parent="70" name="TECLADO_ALFA">
+      <Position>4</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+    </column>
+    <column id="308" parent="70" name="ATIVA">
+      <Position>5</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;T&apos;</DefaultExpression>
+    </column>
+    <index id="309" parent="70" name="EMPRESA_JORNADA_PK">
+      <ObjectId>266707</ObjectId>
+      <CreatedTimestamp>2017-01-05.14:27:15</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-05.14:27:15</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>EMPRESA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="310" parent="70" name="EMPRESA_JORNADA_PK">
+      <ModifiedTimestamp>2017-01-05.14:27:15</ModifiedTimestamp>
+      <ColNames>EMPRESA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMPRESA_JORNADA_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="311" parent="70" name="TRG_EMPRESA_CONFIG">
+      <ObjectId>243032</ObjectId>
+      <CreatedTimestamp>2016-09-26.09:50:27</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-05.14:19:12</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>before-row</Turn>
+      <ColNames>EMPRESA
+TECLADO_ALFA</ColNames>
+    </trigger>
+    <column id="312" parent="71" name="ID_EVENTO">
+      <Position>1</Position>
+      <DataType>NUMBER(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="313" parent="71" name="PLACA">
+      <Position>2</Position>
+      <DataType>VARCHAR2(8)|0</DataType>
+    </column>
+    <column id="314" parent="71" name="DATA_DB">
+      <Position>3</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE</DefaultExpression>
+    </column>
+    <column id="315" parent="71" name="DATA_HORA">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="316" parent="71" name="CODIGO">
+      <Position>5</Position>
+      <DataType>NUMBER(5)|0</DataType>
+    </column>
+    <column id="317" parent="71" name="PARAMETRO">
+      <Position>6</Position>
+      <DataType>VARCHAR2(1000)|0</DataType>
+    </column>
+    <column id="318" parent="71" name="ENVIADA_RECEBIDA">
+      <Position>7</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <column id="319" parent="71" name="MEIO_CONEXAO">
+      <Position>8</Position>
+      <DataType>VARCHAR2(6)|0</DataType>
+      <DefaultExpression>&apos;G&apos;</DefaultExpression>
+    </column>
+    <column id="320" parent="71" name="REQUERENTE">
+      <Position>9</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="321" parent="71" name="ACESSORIO">
+      <Position>10</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+    </column>
+    <column id="322" parent="71" name="MODELO_APARELHO">
+      <Position>11</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="323" parent="71" name="FATURAR">
+      <Position>12</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+    </column>
+    <column id="324" parent="71" name="LATITUDE">
+      <Position>13</Position>
+      <DataType>CHAR(10)|0</DataType>
+    </column>
+    <column id="325" parent="71" name="LONGITUDE">
+      <Position>14</Position>
+      <DataType>CHAR(10)|0</DataType>
+    </column>
+    <column id="326" parent="71" name="DATA_POSICAO">
+      <Position>15</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="327" parent="71" name="LAT">
+      <Position>16</Position>
+      <DataType>NUMBER(8,6)|0</DataType>
+    </column>
+    <column id="328" parent="71" name="LON">
+      <Position>17</Position>
+      <DataType>NUMBER(9,6)|0</DataType>
+    </column>
+    <column id="329" parent="71" name="DESCRICAO">
+      <Position>18</Position>
+      <DataType>VARCHAR2(250)|0</DataType>
+    </column>
+    <column id="330" parent="71" name="CLIENTE_VISUALIZA">
+      <Position>19</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;T&apos;</DefaultExpression>
+    </column>
+    <column id="331" parent="71" name="CALLCENTER_VISUALIZA">
+      <Position>20</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;T&apos;</DefaultExpression>
+    </column>
+    <column id="332" parent="71" name="GERENCIADORA_VISUALIZA">
+      <Position>21</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;T&apos;</DefaultExpression>
+    </column>
+    <column id="333" parent="71" name="COM_PARAMETRO">
+      <Position>22</Position>
+      <DataType>VARCHAR2(1)|0</DataType>
+    </column>
+    <column id="334" parent="71" name="ID_VEICULO">
+      <Position>23</Position>
+      <DataType>VARCHAR2(35)|0</DataType>
+    </column>
+    <column id="335" parent="71" name="FROTA_ID">
+      <Position>24</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="336" parent="71" name="CONDUTOR">
+      <Position>25</Position>
+      <DataType>VARCHAR2(16)|0</DataType>
+    </column>
+    <index id="337" parent="71" name="PK_EVENTO_JORNADA_LOG">
+      <ObjectId>276276</ObjectId>
+      <CreatedTimestamp>2017-02-28.18:51:24</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-28.18:51:24</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_EVENTO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="338" parent="71" name="PK_EVENTO_JORNADA_LOG">
+      <ModifiedTimestamp>2017-02-28.18:51:24</ModifiedTimestamp>
+      <ColNames>ID_EVENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_EVENTO_JORNADA_LOG</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="339" parent="72" name="ID_FERIADO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="340" parent="72" name="DATA_FERIADO">
+      <Position>2</Position>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="341" parent="72" name="USER_CAD">
+      <Position>3</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="342" parent="72" name="EMPRESA">
+      <Position>4</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="343" parent="72" name="DESCRICAO">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <index id="344" parent="72" name="FERIADO_PK">
+      <ObjectId>273821</ObjectId>
+      <CreatedTimestamp>2017-02-20.15:41:42</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-20.15:41:42</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_FERIADO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="345" parent="72" name="FERIADO_PK">
+      <ModifiedTimestamp>2017-02-20.15:41:42</ModifiedTimestamp>
+      <ColNames>ID_FERIADO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>FERIADO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="346" parent="73" name="ID_GRUPO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="347" parent="73" name="DESCRICAO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(150)|0</DataType>
+    </column>
+    <index id="348" parent="73" name="GRUPO_PK">
+      <ObjectId>238703</ObjectId>
+      <CreatedTimestamp>2016-08-23.17:22:04</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-23.17:22:04</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_GRUPO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="349" parent="73" name="GRUPO_PK">
+      <ModifiedTimestamp>2016-08-23.17:22:04</ModifiedTimestamp>
+      <ColNames>ID_GRUPO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>GRUPO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="350" parent="74" name="ID_JORNADA">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="351" parent="74" name="SITUACAO">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="352" parent="74" name="DATA_INI">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="353" parent="74" name="DATA_FIM">
+      <Position>4</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="354" parent="74" name="DATA_DB">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>SYSDATE</DefaultExpression>
+    </column>
+    <column id="355" parent="74" name="DATA_HORA">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="356" parent="74" name="CONDUTOR">
+      <Position>7</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="357" parent="74" name="PLACA">
+      <Position>8</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="358" parent="74" name="DATA_ALT">
+      <Position>9</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="359" parent="74" name="ATUAL">
+      <Position>10</Position>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;T&apos;</DefaultExpression>
+    </column>
+    <column id="360" parent="74" name="SITUACAO_ANT">
+      <Position>11</Position>
+      <DataType>NUMBER(2)|0</DataType>
+    </column>
+    <column id="361" parent="74" name="JORNADA_ANT">
+      <Position>12</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="362" parent="74" name="EDITADO">
+      <Position>13</Position>
+      <Comment>Indica se a jornada foi ou não editada pelo usuário</Comment>
+      <DataType>CHAR(1)|0</DataType>
+      <DefaultExpression>&apos;F&apos;</DefaultExpression>
+    </column>
+    <column id="363" parent="74" name="AFASTAMENTO">
+      <Position>14</Position>
+      <Comment>Se null indica que a jornada não possui afastamento. Se preenchida, indica o id do afastamento</Comment>
+      <DataType>NUMBER(20)|0</DataType>
+    </column>
+    <index id="364" parent="74" name="JORNADA_TRABALHO_PK">
+      <ObjectId>237084</ObjectId>
+      <CreatedTimestamp>2016-08-22.17:29:09</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-22.17:29:09</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_JORNADA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="365" parent="74" name="IDX_JORNADA">
+      <ObjectId>240182</ObjectId>
+      <CreatedTimestamp>2016-08-31.09:27:33</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-31.09:27:33</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>CONDUTOR
+DATA_INI</ColNames>
+      <ReverseColNames>DATA_INI</ReverseColNames>
+      <FunctionBased>1</FunctionBased>
+    </index>
+    <key id="366" parent="74" name="JORNADA_TRABALHO_PK">
+      <ModifiedTimestamp>2016-08-22.17:29:09</ModifiedTimestamp>
+      <ColNames>ID_JORNADA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>JORNADA_TRABALHO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="367" parent="74" name="FK_JORNADA_SITUACAO">
+      <ModifiedTimestamp>2016-08-22.17:29:21</ModifiedTimestamp>
+      <ColNames>SITUACAO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>SITUACAO</RefTableName>
+      <RefKeyName>SITUACAO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="368" parent="74" name="TRG_JORNADA">
+      <ObjectId>241582</ObjectId>
+      <CreatedTimestamp>2016-09-13.11:46:43</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-24.17:13:10</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <trigger id="369" parent="74" name="TRG_JORNADA_QUEBRADIA">
+      <ObjectId>243821</ObjectId>
+      <CreatedTimestamp>2016-10-03.09:55:34</CreatedTimestamp>
+      <ModifiedTimestamp>2016-11-21.15:17:05</ModifiedTimestamp>
+      <Events>IU</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="370" parent="75" name="ID_JORNADA_LOG">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="371" parent="75" name="SITUACAO">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="372" parent="75" name="DATA_INI">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="373" parent="75" name="DATA_FIM">
+      <Position>4</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="374" parent="75" name="DATA_DB">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="375" parent="75" name="DATA_HORA">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="376" parent="75" name="CONDUTOR">
+      <Position>7</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="377" parent="75" name="PLACA">
+      <Position>8</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="378" parent="75" name="DATA_ALT">
+      <Position>9</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="379" parent="75" name="USUARIO">
+      <Position>10</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="380" parent="75" name="SIT_ANTERIOR">
+      <Position>11</Position>
+      <DataType>NUMBER(2)|0</DataType>
+    </column>
+    <column id="381" parent="75" name="JORNADA_ANT">
+      <Position>12</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="382" parent="75" name="DESCRICAO">
+      <Position>13</Position>
+      <DataType>VARCHAR2(250)|0</DataType>
+    </column>
+    <column id="383" parent="75" name="ID_JORNADA">
+      <Position>14</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <index id="384" parent="75" name="JORNADA_LOG_PK">
+      <ObjectId>237086</ObjectId>
+      <CreatedTimestamp>2016-08-22.17:30:16</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-22.17:30:16</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_JORNADA_LOG</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="385" parent="75" name="JORNADA_LOG_PK">
+      <ModifiedTimestamp>2016-08-22.17:30:16</ModifiedTimestamp>
+      <ColNames>ID_JORNADA_LOG</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>JORNADA_LOG_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="386" parent="75" name="FK_JORNADA_LOG_USUARIO">
+      <ModifiedTimestamp>2016-12-13.16:41:40</ModifiedTimestamp>
+      <ColNames>USUARIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>USUARIO</RefTableName>
+      <RefKeyName>USUARIO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="387" parent="76" name="ID_JORNADA">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="388" parent="76" name="SITUACAO">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="389" parent="76" name="DATA_INI">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="390" parent="76" name="DATA_FIM">
+      <Position>4</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="391" parent="76" name="DATA_DB">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="392" parent="76" name="DATA_HORA">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="393" parent="76" name="CONDUTOR">
+      <Position>7</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="394" parent="76" name="PLACA">
+      <Position>8</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="395" parent="76" name="DATA_ALT">
+      <Position>9</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="396" parent="76" name="ATUAL">
+      <Position>10</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <column id="397" parent="76" name="SITUACAO_ANT">
+      <Position>11</Position>
+      <DataType>NUMBER(2)|0</DataType>
+    </column>
+    <column id="398" parent="76" name="JORNADA_ANT">
+      <Position>12</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="399" parent="76" name="EDITADO">
+      <Position>13</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <column id="400" parent="77" name="ID_MODULO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="401" parent="77" name="DESCRICAO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(150)|0</DataType>
+    </column>
+    <column id="402" parent="77" name="ICON">
+      <Position>3</Position>
+      <DataType>VARCHAR2(150)|0</DataType>
+    </column>
+    <column id="403" parent="77" name="URL">
+      <Position>4</Position>
+      <DataType>VARCHAR2(150)|0</DataType>
+    </column>
+    <index id="404" parent="77" name="MODULOS_PK">
+      <ObjectId>238554</ObjectId>
+      <CreatedTimestamp>2016-08-23.17:19:12</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-23.17:19:12</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_MODULO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="405" parent="77" name="MODULOS_PK">
+      <ModifiedTimestamp>2016-08-23.17:19:12</ModifiedTimestamp>
+      <ColNames>ID_MODULO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>MODULOS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="406" parent="78" name="MODULO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="407" parent="78" name="GRUPO">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="408" parent="78" name="ADICIONAR">
+      <Position>3</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <column id="409" parent="78" name="EDITAR">
+      <Position>4</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <column id="410" parent="78" name="EXCLUIR">
+      <Position>5</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <foreign-key id="411" parent="78" name="MODULO_GRUPO_MODULOS_FK">
+      <ModifiedTimestamp>2016-08-23.17:22:47</ModifiedTimestamp>
+      <ColNames>MODULO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>MODULOS</RefTableName>
+      <RefKeyName>MODULOS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="412" parent="78" name="MODULO_GRUPO_GRUPO_FK">
+      <ModifiedTimestamp>2016-08-23.17:22:47</ModifiedTimestamp>
+      <ColNames>GRUPO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>GRUPO</RefTableName>
+      <RefKeyName>GRUPO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="413" parent="79" name="MODULO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="414" parent="79" name="USUARIO">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="415" parent="79" name="ADD">
+      <Position>3</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <column id="416" parent="79" name="EDIT">
+      <Position>4</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <column id="417" parent="79" name="DEL">
+      <Position>5</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <index id="418" parent="79" name="MODULO_USUARIO_PK">
+      <ObjectId>238556</ObjectId>
+      <CreatedTimestamp>2016-08-23.17:21:47</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-23.17:21:47</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>MODULO
+USUARIO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="419" parent="79" name="MODULO_USUARIO_PK">
+      <ModifiedTimestamp>2016-08-23.17:21:47</ModifiedTimestamp>
+      <ColNames>MODULO
+USUARIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>MODULO_USUARIO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="420" parent="79" name="MODULO_USUARIO_MODULOS_FK">
+      <ModifiedTimestamp>2016-08-23.17:21:47</ModifiedTimestamp>
+      <ColNames>MODULO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>MODULOS</RefTableName>
+      <RefKeyName>MODULOS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="421" parent="79" name="MODULO_USUARIO_USUARIO_FK">
+      <ModifiedTimestamp>2016-08-23.17:21:47</ModifiedTimestamp>
+      <ColNames>USUARIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>USUARIO</RefTableName>
+      <RefKeyName>USUARIO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="422" parent="80" name="ID_SITUACAO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="423" parent="80" name="DESCRICAO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="424" parent="80" name="PADRAO">
+      <Position>3</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <column id="425" parent="80" name="ACCORDION">
+      <Position>4</Position>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <column id="426" parent="80" name="ICONE">
+      <Position>5</Position>
+      <DataType>VARCHAR2(60)|0</DataType>
+    </column>
+    <column id="427" parent="80" name="EMPRESA">
+      <Position>6</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <index id="428" parent="80" name="SITUACAO_PK">
+      <ObjectId>237080</ObjectId>
+      <CreatedTimestamp>2016-08-22.17:27:45</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-22.17:27:45</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_SITUACAO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="429" parent="80" name="SITUACAO_PK">
+      <ModifiedTimestamp>2016-08-22.17:27:45</ModifiedTimestamp>
+      <ColNames>ID_SITUACAO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SITUACAO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="430" parent="81" name="ID_USUARIO">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="431" parent="81" name="NOME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(150)|0</DataType>
+    </column>
+    <column id="432" parent="81" name="LOGIN">
+      <Position>3</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="433" parent="81" name="SENHA">
+      <Position>4</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="434" parent="81" name="GRUPO">
+      <Position>5</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="435" parent="81" name="EMPRESA">
+      <Position>6</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="436" parent="81" name="EMAIL">
+      <Position>7</Position>
+      <DataType>VARCHAR2(300)|0</DataType>
+    </column>
+    <index id="437" parent="81" name="USUARIO_PK">
+      <ObjectId>237082</ObjectId>
+      <CreatedTimestamp>2016-08-22.17:28:34</CreatedTimestamp>
+      <ModifiedTimestamp>2016-08-22.17:28:34</ModifiedTimestamp>
+      <TablespaceName>JORNADA_DADOS</TablespaceName>
+      <ColNames>ID_USUARIO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="438" parent="81" name="USUARIO_PK">
+      <ModifiedTimestamp>2016-08-22.17:28:34</ModifiedTimestamp>
+      <ColNames>ID_USUARIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>USUARIO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="439" parent="81" name="USUARIO_GRUPO_FK">
+      <ModifiedTimestamp>2016-08-23.17:23:03</ModifiedTimestamp>
+      <ColNames>GRUPO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>GRUPO</RefTableName>
+      <RefKeyName>GRUPO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <body id="440" parent="82" name="PKG_ALERTAS">
+      <ObjectId>242438</ObjectId>
+      <CreatedTimestamp>2016-09-21.22:58:34</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-09.11:10:33</ModifiedTimestamp>
+    </body>
+    <routine id="441" parent="82" name="GERAALERTAMOVIMENTO">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <body id="442" parent="83" name="PKG_BANCO_HORAS">
+      <ObjectId>304065</ObjectId>
+      <CreatedTimestamp>2017-03-27.10:29:01</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-13.11:11:10</ModifiedTimestamp>
+    </body>
+    <routine id="443" parent="83" name="GERABANCOCONDUTORDIA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="444" parent="83" name="SETTOTALBANCOHORAS">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="445" parent="83" name="GETTOTALSITUACAO">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="446" parent="83" name="CONSULTAFERIADO">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <body id="447" parent="84" name="PKG_GERA_EVENTOS">
+      <ObjectId>276180</ObjectId>
+      <CreatedTimestamp>2017-02-27.18:57:09</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-28.18:36:18</ModifiedTimestamp>
+    </body>
+    <routine id="448" parent="84" name="GETDADOS">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="449" parent="84" name="CHECKSTATUS">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="450" parent="84" name="INSERTEVENTO">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="451" parent="84" name="CORRIGEEVENTOS">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="452" parent="84" name="DEC2BIN">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="453" parent="84" name="HEX2DEC">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <body id="454" parent="85" name="PKG_JORNADA">
+      <ObjectId>238752</ObjectId>
+      <CreatedTimestamp>2016-08-24.09:42:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-24.17:13:29</ModifiedTimestamp>
+    </body>
+    <routine id="455" parent="85" name="BEGINJORNADA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="456" parent="85" name="INSERTSIT">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="457" parent="85" name="UPDATESIT">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="458" parent="85" name="ENDREGERA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="459" parent="85" name="REGRASITUACAO">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="460" parent="85" name="REGRASITUACAOFIM">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="461" parent="85" name="SETGBLSIT">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="462" parent="85" name="GETPLACA">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="463" parent="85" name="GETTOTALJORNADA">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="464" parent="85" name="GETEMPCOND">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="465" parent="85" name="GERAALERTA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <body id="466" parent="86" name="PKG_JORNADA_CORRECAO">
+      <ObjectId>276256</ObjectId>
+      <Invalid>1</Invalid>
+      <CreatedTimestamp>2017-02-27.23:43:06</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-28.12:03:28</ModifiedTimestamp>
+    </body>
+    <routine id="467" parent="86" name="BEGINJORNADA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="468" parent="86" name="INSERTSIT">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="469" parent="86" name="UPDATESIT">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="470" parent="86" name="ENDREGERA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="471" parent="86" name="REGRASITUACAO">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="472" parent="86" name="REGRASITUACAOFIM">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="473" parent="86" name="SETGBLSIT">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="474" parent="86" name="GETPLACA">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="475" parent="86" name="GETTOTALJORNADA">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="476" parent="86" name="GETEMPCOND">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="477" parent="86" name="GERAALERTA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <body id="478" parent="87" name="PKG_JORNADA_DEV">
+      <ObjectId>243933</ObjectId>
+      <Invalid>1</Invalid>
+      <CreatedTimestamp>2016-10-03.11:24:20</CreatedTimestamp>
+      <ModifiedTimestamp>2017-02-09.10:25:05</ModifiedTimestamp>
+    </body>
+    <routine id="479" parent="87" name="BEGINJORNADA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="480" parent="87" name="INSERTSIT">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="481" parent="87" name="UPDATESIT">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="482" parent="87" name="ENDREGERA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="483" parent="87" name="REGRASITUACAO">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="484" parent="87" name="REGRASITUACAOFIM">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="485" parent="87" name="SETGBLSIT">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="486" parent="87" name="GETPLACA">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="487" parent="87" name="GETTOTALJORNADA">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="488" parent="87" name="GETEMPCOND">
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="489" parent="87" name="GERAALERTA">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <argument id="490" parent="88">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="491" parent="88" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="492" parent="89">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="493" parent="89" name="DT_INI">
+      <DataType>TIMESTAMP|0</DataType>
+    </argument>
+    <argument id="494" parent="89" name="DT_FIM">
+      <DataType>TIMESTAMP|0</DataType>
+    </argument>
+    <argument id="495" parent="90">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="496" parent="90" name="DT_INI">
+      <DataType>TIMESTAMP|0</DataType>
+    </argument>
+    <argument id="497" parent="90" name="DT_FIM">
+      <DataType>TIMESTAMP|0</DataType>
+    </argument>
+    <argument id="498" parent="443" name="DT">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="499" parent="443" name="IDEMPRESA">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="500" parent="444" name="IDBANCOHORAS">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="501" parent="444" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="502" parent="444" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="503" parent="445">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="504" parent="445" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="505" parent="445" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="506" parent="445" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="507" parent="445" name="CRTLTOT">
+      <DataType>CHAR|0</DataType>
+    </argument>
+    <argument id="508" parent="446">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="509" parent="446" name="DT">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="510" parent="446" name="IDEMPRESA">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="511" parent="448" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="512" parent="448" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="513" parent="448" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="514" parent="448" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="515" parent="449" name="PLACA_AUX">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="516" parent="449" name="DATA_AUX">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="517" parent="449" name="PACOTE_AUX">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="518" parent="449" name="CONDUTOR_AUX">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="519" parent="449" name="EMPRESA_AUX">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="520" parent="450" name="PLC">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="521" parent="450" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="522" parent="450" name="COD">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="523" parent="450" name="DT">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="524" parent="450" name="DADOS">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="525" parent="451" name="DT">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="526" parent="452">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="527" parent="452" name="NUMERO">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="528" parent="453">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="529" parent="453" name="HEXVAL">
+      <DataType>CHAR|0</DataType>
+    </argument>
+    <argument id="530" parent="455" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="531" parent="455" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="532" parent="455" name="DT">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="533" parent="456" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="534" parent="456" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="535" parent="456" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="536" parent="456" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="537" parent="456" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="538" parent="456" name="PLC">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="539" parent="456" name="SITANT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="540" parent="456" name="JORNANT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="541" parent="457" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="542" parent="457" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="543" parent="457" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="544" parent="457" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="545" parent="457" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="546" parent="457" name="PLC">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="547" parent="457" name="SITANT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="548" parent="457" name="JORNANT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="549" parent="457" name="JORUPD">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="550" parent="458" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="551" parent="458" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="552" parent="458" name="PLC">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="553" parent="458" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="554" parent="459">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="555" parent="459" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="556" parent="459" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="557" parent="459" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="558" parent="459" name="COD">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="559" parent="459" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="560" parent="459" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="561" parent="460">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="562" parent="460" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="563" parent="460" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="564" parent="460" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="565" parent="460" name="COD">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="566" parent="460" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="567" parent="460" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="568" parent="461" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="569" parent="461" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="570" parent="462">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="571" parent="462" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="572" parent="462" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="573" parent="463">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="574" parent="463" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="575" parent="463" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="576" parent="463" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="577" parent="463" name="CRTLTOT">
+      <DataType>CHAR|0</DataType>
+    </argument>
+    <argument id="578" parent="464">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="579" parent="464" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="580" parent="465" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="581" parent="465" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="582" parent="465" name="CONFIG">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="583" parent="465" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="584" parent="465" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="585" parent="465" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="586" parent="467" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="587" parent="467" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="588" parent="467" name="DT">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="589" parent="468" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="590" parent="468" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="591" parent="468" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="592" parent="468" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="593" parent="468" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="594" parent="468" name="PLC">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="595" parent="468" name="SITANT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="596" parent="468" name="JORNANT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="597" parent="469" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="598" parent="469" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="599" parent="469" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="600" parent="469" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="601" parent="469" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="602" parent="469" name="PLC">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="603" parent="469" name="SITANT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="604" parent="469" name="JORNANT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="605" parent="469" name="JORUPD">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="606" parent="470" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="607" parent="470" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="608" parent="470" name="PLC">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="609" parent="470" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="610" parent="471">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="611" parent="471" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="612" parent="471" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="613" parent="471" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="614" parent="471" name="COD">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="615" parent="471" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="616" parent="471" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="617" parent="472">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="618" parent="472" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="619" parent="472" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="620" parent="472" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="621" parent="472" name="COD">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="622" parent="472" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="623" parent="472" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="624" parent="473" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="625" parent="473" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="626" parent="474">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="627" parent="474" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="628" parent="474" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="629" parent="475">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="630" parent="475" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="631" parent="475" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="632" parent="475" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="633" parent="475" name="CRTLTOT">
+      <DataType>CHAR|0</DataType>
+    </argument>
+    <argument id="634" parent="476">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="635" parent="476" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="636" parent="477" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="637" parent="477" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="638" parent="477" name="CONFIG">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="639" parent="477" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="640" parent="477" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="641" parent="477" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="642" parent="479" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="643" parent="479" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="644" parent="479" name="DT">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="645" parent="480" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="646" parent="480" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="647" parent="480" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="648" parent="480" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="649" parent="480" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="650" parent="480" name="PLC">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="651" parent="480" name="SITANT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="652" parent="480" name="JORNANT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="653" parent="480" name="AFAST">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="654" parent="481" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="655" parent="481" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="656" parent="481" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="657" parent="481" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="658" parent="481" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="659" parent="481" name="PLC">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="660" parent="481" name="SITANT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="661" parent="481" name="JORNANT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="662" parent="481" name="JORUPD">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="663" parent="482" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="664" parent="482" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="665" parent="482" name="PLC">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="666" parent="482" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="667" parent="483">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="668" parent="483" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="669" parent="483" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="670" parent="483" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="671" parent="483" name="COD">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="672" parent="483" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="673" parent="483" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="674" parent="484">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="675" parent="484" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="676" parent="484" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="677" parent="484" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="678" parent="484" name="COD">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="679" parent="484" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="680" parent="484" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="681" parent="485" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="682" parent="485" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="683" parent="486">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="684" parent="486" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="685" parent="486" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="686" parent="487">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="687" parent="487" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="688" parent="487" name="DTHR">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="689" parent="487" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="690" parent="487" name="CRTLTOT">
+      <DataType>CHAR|0</DataType>
+    </argument>
+    <argument id="691" parent="488">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="692" parent="488" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="693" parent="489" name="EMP">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="694" parent="489" name="COND">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="695" parent="489" name="CONFIG">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="696" parent="489" name="SIT">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="697" parent="489" name="DTINI">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="698" parent="489" name="DTFIM">
+      <DataType>DATE|0</DataType>
+    </argument>
+  </database-model>
+</dataSource>

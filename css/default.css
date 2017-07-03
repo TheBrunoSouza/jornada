@@ -1,0 +1,172 @@
+html, body {
+	font:normal 12px verdana; 
+	margin:0; 
+	padding:0; 
+	border:0 none; 
+	overflow:hidden; 
+	height:100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+A:link {
+	text-decoration: none; 
+	color: #000000;
+}
+A:visited {
+	text-decoration: none; 
+	color: #0E0E0E;
+}
+A:active {
+	text-decoration: none; 
+	color: #0E0E0E;
+}
+A:hover {
+	text-decoration: underline; 
+	color: #000000;
+}
+#tabela{
+	margin: 0px 0px 0px 0px; /*TOP RIGHT BOTTOM LEFT */
+	border: 1px solid #EDEDED; 
+	border-spacing:0px;
+	border-left: 0px;
+	border-bottom:0px;
+	border-collapse: collapse;
+	font:normal 11px arial, tahoma, helvetica, sans-serif;
+	background-color:#FFFFFF;
+    -moz-outline: none;
+	-moz-user-focus: normal;
+}
+#tabela td{
+	border: 1px #EEEEEE solid;
+	padding: 3px 3px 3px 3px;
+	height:23px;
+}
+#tabela th{
+	font-weight:bold;
+	border: 1px #D0D0D0 solid;
+	padding: 3px 3px 3px 5px;
+	background: #F9F9F9 url('../../../jornada/imagens/template/table/header_bg.gif') repeat-x 0 bottom;
+	cursor:default;
+    zoom:1;
+    height:24px;
+}
+#tabela tr:hover{
+	border: 1px #DDDDDD solid;
+	background-color:#EFEFEF;
+}
+
+.titulo{
+	padding: 3px 3px 3px 5px;
+	font:normal 11px arial, tahoma, helvetica, sans-serif;
+	font-weight:bold;
+	background: #F9F9F9 url('../../../jornada/imagens/template/table/header_bg.gif') repeat-x 0 bottom;
+    zoom:1;
+    height:24px;
+}
+
+.subtitulo{
+	padding: 3px 3px 3px 5px;
+	font:normal 11px arial, tahoma, helvetica, sans-serif;
+	font-weight:bold;
+	background: #EEEEEE;
+    zoom:1;
+    height:24px;
+}
+
+.paginacao{
+	margin: 5px 5px 5px 5px; /*TOP RIGHT BOTTOM LEFT */
+	padding: 10px 10px 10px 10px;
+	border: 0px;
+	font:normal 12px arial, tahoma, helvetica, sans-serif;
+}
+.form{
+	font:normal 13px tahoma, arial, helvetica, sans-serif;
+	background-color:#FFFFFF;
+	border:1px solid #B5B8C8;
+	text-align:left;
+	height:22px;
+}
+
+.smallForm{
+	font:normal 11px tahoma, arial, helvetica, sans-serif;
+	background-color:#FFFFFF;
+	border:1px solid #B5B8C8;
+	text-align:left;
+	height:16px;
+}
+
+.formSelect{
+	font:normal 11px tahoma, arial, helvetica, sans-serif;
+	background-color:#FFFFFF;
+	border:1px solid #B5B8C8;
+	text-align:left;
+}
+.textarea{
+	font:normal 13px tahoma, arial, helvetica, sans-serif;
+	background-color:#FFFFFF;
+	border:1px solid #B5B8C8;
+	text-align:left;
+}
+.button{ 
+	background:url(../../../jornada/imagens/template/button.jpg) no-repeat;
+	width:75px;
+	height:21px;
+	border:0 none;
+    font:normal 11px tahoma,verdana,helvetica;
+    padding-left:3px;
+    padding-right:3px;
+    cursor:pointer;
+    margin:0;
+    overflow:visible;
+}
+.text{
+	font:normal 12px arial, tahoma, helvetica, sans-serif;
+}
+.formTable{
+	width: 100%;
+	border: 0px;
+	font:normal 12px tahoma, arial, helvetica, sans-serif;
+	background-color:#DFE8F6;
+}
+.formTable td{
+	padding: 2px 5px 2px 5px;
+}
+
+.linha_zero{
+	visibility:hidden;
+	display:none;
+}
+
+.formStatus{
+	font:normal 11px arial, tahoma, helvetica, sans-serif;
+	border:0px;
+	text-align:left;
+	height:15px;
+	position:absolute;
+	padding-top: 0px;
+}
+
+.sol{ 
+	background:url(../../../jornada/imagens/16x16/sol.png) no-repeat;
+}
+.chuva{ 
+	background:url(../../../jornada/imagens/16x16/chuva.png) no-repeat;
+}
+
+.on{ 
+	background:url(../../../jornada/imagens/16x16/on.png) no-repeat;
+}
+.off{ 
+	background:url(../../../jornada/imagens/16x16/off.png) no-repeat;
+}
+.warning{
+	background-color:#FDC9C1; 
+	font:bold 11px arial, tahoma, helvetica, sans-serif;
+	height:20px;
+	padding-left:5px;
+	padding-top:5px; 
+}
+input[type="radio"]{ vertical-align:middle; } 
+input[type="checkbox"] { vertical-align:middle; } 
